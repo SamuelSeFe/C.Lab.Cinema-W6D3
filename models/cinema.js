@@ -11,6 +11,7 @@ Cinema.prototype.filmByTitle = function (filmTitle) {
   const byTitle = this.films.filter( film => film.title === filmTitle );
   return byTitle;
 };
+// Can also use this.films.find --> check solutions
 
 Cinema.prototype.filmByGenre = function (filmGenre) {
   const byGenre = this.films.filter( film => film.genre === filmGenre);
