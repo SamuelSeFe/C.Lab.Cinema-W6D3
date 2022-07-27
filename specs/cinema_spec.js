@@ -46,6 +46,12 @@ describe('Cinema', function () {
     assert.deepStrictEqual(actual, expected)
   });
 
+  // it('should be able to filter films by genre', function () {
+  //   const actual = cinema.filmsByProperty("genre", "sci-fi");
+  //   const expected = [bladeRunner];
+  //   assert.deepStrictEqual(actual, expected)
+  // });
+
 
   it('should be able to check whether there are no films from a particular year', function () {
     const actual = cinema.noFilmThisYear(3034);
